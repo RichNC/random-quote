@@ -3,7 +3,7 @@ import React from 'react';
 export class Button extends React.Component {
   render(){
     return (
-      <button>New Quote</button>
+      <button onClick={this.props.onClick}>New Quote</button>
       )
   }
 }
